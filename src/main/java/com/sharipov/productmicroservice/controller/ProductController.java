@@ -21,6 +21,7 @@ public class ProductController {
     @PostMapping
     public ResponseEntity<String> createProduct(@RequestBody ProductDTO productDTO){
        String productId = productService.createProduct(productDTO);
+
         return ResponseEntity.status(HttpStatus.CREATED).body(productId);
     }
 }

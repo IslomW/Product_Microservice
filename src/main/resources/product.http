@@ -1,0 +1,8 @@
+POST http://localhost:56263/api/v1/product
+Content-Type: application/json
+
+{
+  "title": "Nma gap",
+  "price": 200,
+  "quantity": 5
+}

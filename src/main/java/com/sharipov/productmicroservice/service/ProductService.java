@@ -1,4 +1,7 @@
 package com.sharipov.productmicroservice.service;
 
-public class ProductService {
+import com.sharipov.productmicroservice.dto.ProductDTO;
+
+public interface ProductService {
+    String createProduct(ProductDTO productDTO);
 }
